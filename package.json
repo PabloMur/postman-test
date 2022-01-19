@@ -1,0 +1,14 @@
+{
+  "name": "postman",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^17.0.10",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "dev": "nodemon --watch './index.ts' --exec 'ts-node ./index.ts'"
+  }
+}
