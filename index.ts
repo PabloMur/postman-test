@@ -12,6 +12,12 @@ app.get("/users", (req, res) => {
   res.json(["todos los users"]);
 });
 
+app.get("/users/:id", (req, res) => {
+  res.json({
+    userID: 123123,
+  });
+});
+
 app.post("/users", (req, res) => {
   res.json({
     message: "usuario creado correctamente",
