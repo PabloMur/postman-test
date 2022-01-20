@@ -10,7 +10,7 @@
   },
   "scripts": {
     "build": "tsc index.ts",
-    "start": "node index.ts",
+    "start": "node index.tj",
     "dev": "nodemon --watch './index.ts' --exec 'ts-node ./index.ts'"
   }
 }
